@@ -8,7 +8,7 @@ long long solution(int n, vector<int> times) {
 	long long answer = 0;
 
 	sort(times.begin(), times.end());
-	long long right = times[times.size() - 1] * n;
+	long long right = (long long)times[times.size() - 1] * n;
 	long long left = 0;
 	answer = right;
 
